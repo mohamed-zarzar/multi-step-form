@@ -1,0 +1,10 @@
+.header-of-form {
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image:url("../images/bg-sidebar-mobile.svg");
+}   
+@media (min-width:485px) {
+    .header-of-form {
+        background-image:url("../images/bg-sidebar-desktop.svg");
+    }   
+}
