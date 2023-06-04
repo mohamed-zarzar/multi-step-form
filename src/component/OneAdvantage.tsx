@@ -24,7 +24,7 @@ function OneAdvantage (props:one) {
         setIsActive(!isActive);
     };
     return (
-        <div className={`flex border-2 border-solid rounded my-2  px-4 py-2 justify-between items-center h-20 cursor-pointer
+        <div className={`flex border-2 border-solid rounded my-2  px-4 py-2 justify-between items-center h-22 cursor-pointer
         ${isActive ? "bg-indigo-50 border-indigo-400" : "border-gray-200"}`}
         onClick={onClick}>
             <div className="flex space-x-6">
