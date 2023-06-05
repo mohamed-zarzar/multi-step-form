@@ -67,7 +67,8 @@ function FourthStep () {
                     Total {`(per ${stateSecound.isMonthly ? "month": "year"})`}
                 </div>
                 <div className="text-xl text-indigo-600 font-bold">
-                    {`+$${stateSecound.plan.salary + stateTherd.total}/${stateSecound.isMonthly ? "mo" : "yr"}`}
+                    {stateSecound.isMonthly ?  `+$${stateSecound.plan.salary + stateTherd.total}/mo`:`+$${stateSecound.plan.salary + stateTherd.total * 10 }/yr` }
+                    
                 </div>
             </div>
         </div>
