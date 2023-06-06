@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+* {
+    font-family: Ubuntu;
+}
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
